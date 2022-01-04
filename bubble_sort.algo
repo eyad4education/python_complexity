@@ -1,0 +1,27 @@
+Algorithm bubble_sort
+Debut
+	n <-- 9
+	t <-- [1, 5, 2, 8, 4, 9, 3, 7, 6]
+	tmp <-- 0
+	Repeter
+		con <-- Faux
+		Pour i de 0 a n-2 faire
+			Si t[i] > t[i+1] faire
+				tmp = t[i]
+				t[i] = t[i+1]
+				t[i+1] = tmp
+				con = Vrai
+			Fin Si
+		Fin Pour
+	Jusqua con = Faux
+Fin
+
+           T.D.O.G
+-------------------------------           -----------------------------
+     Objet       |    Type                          Type
+-------------------------------           -----------------------------
+      n          |   entier                 tab = tableau de n entiers
+      i          |   entier
+      t          |   tab
+      tmp        |   entier
+      con        |   boolean
